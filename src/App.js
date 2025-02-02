@@ -1,4 +1,5 @@
 import AvoidReactMemo from "./common-mistakes-to-avoid/avoid-react-memo";
+import SyncingStateViaUseEffect from "./common-mistakes-to-avoid/syncing-states-via-use-effect";
 
 
 
@@ -6,7 +7,8 @@ import AvoidReactMemo from "./common-mistakes-to-avoid/avoid-react-memo";
 function App() {
   return (
     <div className="App">
-       <AvoidReactMemo/> 
+       {/* <AvoidReactMemo/>  */}
+       {/* <SyncingStateViaUseEffect /> */}
     </div>
   );
 }
